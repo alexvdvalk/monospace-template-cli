@@ -1,0 +1,18 @@
+{
+  "name": "monospace-template-cli",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@monospace/sdk": "^0.6.0",
+    "axios": "^1.19.0",
+    "enquirer": "^2.4.1"
+  },
+  "scripts": {
+    "quickstart": "bun run src/cli.ts"
+  }
+}

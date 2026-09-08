@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//private/tmp/**)",
+      "Bash(bun -e 'const d=await Bun.file\\(\"/tmp/ms-openapi.json\"\\).json\\(\\); console.log\\(Object.keys\\(d.paths\\).join\\(\"\\\\n\"\\)\\)')",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 *)",
+      "mcp__monospace__read_data_sources",
+      "mcp__monospace__read_schema"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "monospace"
+  ]
+}
